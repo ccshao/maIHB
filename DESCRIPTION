@@ -1,0 +1,18 @@
+Package: maIHB
+Type: Package
+Title: Inference the Maternal Allele Inheritance via Bayesian Approach
+Version: 0.1.0
+Author: Chunxuan Shao <c.shao@dkfz.de>
+Maintainer: Chunxuan Shao <c.shao@dkfz.de>
+Description: Inference maternal allele inheritance in fetus in 
+  noninvasive prenatal diagnosis via hierarchical Bayesian 
+  approach. It uses counts data of SNPs on both maternal Haplotype
+  flanking interested genes. Posterior distribution and various 
+  diagnosis plots for MCMC simulations are provided.
+License: GPL-3
+LazyData: TRUE
+Imports: BEST,
+    coda,
+    gtools,
+    parallel,
+    runjags
